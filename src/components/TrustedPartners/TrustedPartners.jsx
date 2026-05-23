@@ -92,46 +92,62 @@ export default function TrustedPartners()
                     overflow-hidden">
                     
 
-                    {/* Decorative Top Left */}
-                    <div className="text-green-400 absolute top-2 sm:top-4 left-2 sm:left-6 
-                        opacity-30 sm:opacity-100">
-                        <img
-                            src={dchord1}
-                            alt="decoration"
-                            className="w-8 sm:w-12 md:w-auto mt-2 sm:mt-4"
-                        />
-                    </div>
+                    <div className="relative w-full px-4 sm:px-6 md:px-10 lg:px-16 py-10">
+  
+  {/* TOP LEFT DECORATION */}
+  <div className="absolute top-1 left-0 sm:top-2 md:top-3">
+  <img
+    src={dchord1}
+    alt="decoration"
+    className="
+      w-[24px] sm:w-[28px] md:w-[32px] lg:w-[36px]
+      h-[18px] sm:h-[20px] md:h-[24px] lg:h-[27px]
+      rotate-[-180px]
+      opacity-80
+    "
+  />
+</div>
 
-                    {/* Testimonial Text */}
-                    <p className="text-gray-300 text-sm sm:text-base 
-                        md:text-[18px] px-2 sm:px-4 md:px-6
-                        font-medium italic 
-                        leading-relaxed sm:leading-[33px] 
-                        tracking-[0] text-center relative z-10">
-                        UCAL has been our trusted partner for over 
-                        15 years. Their commitment to quality, 
-                        precision engineering, and on-time delivery
-                        has made them an integral part of our 
-                        supply chain. The level of technical 
-                        expertise and customer support is exceptional.
-                    </p>
+  {/* CONTENT */}
+  <div className="w-full max-w-[683px] mx-auto">
+  <p className="
+    font-urbanist font-medium italic
+    text-sm sm:text-base md:text-[18px]
+    leading-relaxed sm:leading-[30px] md:leading-[33px]
+    text-center text-gray-300
+  ">
 
-                    {/* Partner Title */}
-                    <h3 className="text-lime-500 mt-6 sm:mt-8
-                        font-normal text-xs sm:text-sm md:text-[14px] 
-                        leading-[100%] tracking-[0] text-center relative z-10">
-                        Leading Global OEM Partner
-                    </h3>
-                    
-                    {/* Decorative Bottom Right */}
-                    <div className="text-green-400 absolute bottom-0 right-2 sm:right-6 
-                        opacity-30 sm:opacity-100">
-                        <img
-                            src={dchord2}
-                            alt="decoration"
-                            className="w-8 sm:w-12 md:w-auto mb-4 sm:mb-8"
-                        />
-                    </div>
+      UCAL has been our trusted partner for over 
+      15 years. Their commitment to quality, 
+      precision engineering, and on-time delivery
+      has made them an integral part of our supply chain.
+      The level of technical expertise and customer support is exceptional.
+    </p>
+
+    <h3 className="
+      text-lime-500 font-normal
+      mt-6 sm:mt-8 md:mt-10
+      text-xs sm:text-sm md:text-[14px]
+      text-center
+    ">
+      Leading Global OEM Partner
+    </h3>
+  </div>
+
+  {/* BOTTOM RIGHT DECORATION */}
+ <div className="absolute bottom-1 right-1 sm:bottom-2 sm:right-2 md:bottom-4 md:right-4">
+  <img
+    src={dchord2}
+    alt="decoration"
+    className="
+      w-[24px] sm:w-[28px] md:w-[32px] lg:w-[36px]
+      h-[18px] sm:h-[20px] md:h-[24px] lg:h-[27px]
+      opacity-80
+    "
+  />
+</div>
+
+</div>
                 </div>
 
                 {/* Navigation Dots */}
