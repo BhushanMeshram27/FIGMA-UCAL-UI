@@ -2,7 +2,7 @@ import faq from "../../assets/Faq.png";
 import bgfaq from "../../assets/bg-faq.png";
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
-import brochurebgImg from "../../assets/brochurebgImg.png";
+import brochurebgImg from "../../assets/brochurebgimg.png";
 
 export default function Faq() {
   const [openIndex, setOpenIndex] = useState(0);

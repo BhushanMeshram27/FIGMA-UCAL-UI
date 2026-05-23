@@ -1,6 +1,6 @@
 import product1 from "../../assets/product1.png";
 import product2 from "../../assets/product2.png";
-import brochurebgImg from "../../assets/brochurebgImg.png";
+import brochurebgImg from "../../assets/brochurebgimg.png";
 import left from "../../assets/left.png"
 import right from "../../assets/right.png"
 

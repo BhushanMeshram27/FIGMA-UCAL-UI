@@ -1,6 +1,6 @@
 import React from "react";
-import brochurebgImg from "../../assets/brochurebgImg.png";
-import footerImg from "../../assets/footerImg.png";
+import brochurebgImg from "../../assets/brochurebgimg.png";
+import footerImg from "../../assets/footerimg.png";
 import ucalicon from "../../assets/ucalicon.png";
 
 import {
