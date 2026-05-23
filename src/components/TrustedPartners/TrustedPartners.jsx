@@ -69,11 +69,14 @@ export default function TrustedPartners()
                         <img 
                             src={item.img}
                             alt={`Partner ${index + 1}`}
-                            className="ww-[110px] h-[55px]
-                             sm:w-[130px] sm:h-[65px]
-                            md:w-[150px] md:h-[72.52px]
-                            rounded-[10px]
-                            border
+                            className=" w-[90px] h-[45px]
+  sm:w-[110px] sm:h-[55px]
+  md:w-[130px] md:h-[65px]
+  lg:w-[150.05px] lg:h-[72.52px]
+
+  rounded-[10px]
+  border-[0.83px]
+  border-gray-300
                             max-w-full max-h-full 
                             bg-[#403A90] object-contain"
                         />
